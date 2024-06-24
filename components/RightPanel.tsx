@@ -1,7 +1,7 @@
 export const RightPanel = () => {
   return (
     <div>
-      <div className="text-slate-400 text-base flex flex-col gap-4">
+      <div className="text-slate-400 text-base flex flex-col gap-4 leading-7">
         <p>
           Motivated software engineer with 2+ years of front-end and back-end
           development experience, currently pursuing a master&apos;s degree in

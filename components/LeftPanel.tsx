@@ -1,15 +1,36 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 export const LeftPanel = () => {
   return (
-    <div className="text-white flex flex-col gap-4">
-      <div className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-        &quot;Jake&quot; Zhi Wang
+    <div className="flex flex-col justify-between h-full">
+      <div className="flex flex-col gap-4">
+        <div className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+          &quot;Jake&quot; Zhi Wang
+        </div>
+        <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+          Full Stack Software Engineer
+        </div>
+        <p className="text-slate-400 md:pr-56">
+          I build pixel-perfect, engaging, and accessible digital experiences.
+        </p>
       </div>
-      <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-        Full Stack Software Engineer
+      <div className="flex gap-4">
+        <a
+          href="https://github.com/Jake-WangZhi"
+          target="_blank"
+          className="text-slate-400 cursor-pointer hover:text-slate-200"
+        >
+          <GitHubIcon fontSize="large" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jake0wang/"
+          target="_blank"
+          className="text-slate-400 cursor-pointer hover:text-slate-200"
+        >
+          <LinkedInIcon fontSize="large" />
+        </a>
       </div>
-      <p className="text-slate-400 pr-56">
-        I build pixel-perfect, engaging, and accessible digital experiences.
-      </p>
     </div>
   );
 };
