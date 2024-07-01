@@ -1,5 +1,6 @@
 import { Chip, Grid, Paper } from "@mui/material";
 import { useState } from "react";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 interface Props {
   time: string;
@@ -7,6 +8,7 @@ interface Props {
   company: string;
   description: Array<string>;
   techStacks: Array<string>;
+  url: string;
 }
 
 export default function ExpCard({
@@ -15,11 +17,12 @@ export default function ExpCard({
   company,
   description,
   techStacks,
+  url,
 }: Props) {
   const [hover, setHover] = useState(false);
 
   return (
-    <>
+    <a href={url} target="_blank">
       <Paper
         sx={{
           backgroundColor: "transparent",
@@ -44,7 +47,14 @@ export default function ExpCard({
                 >
                   {title}
                 </h1>
-                <div className="flex text-sm justify-end">{company}</div>
+                <div
+                  className={`flex text-sm justify-end gap-1 items-center ${
+                    hover ? "text-teal-300" : "text-slate-200"
+                  }`}
+                >
+                  {company}
+                  <ArrowOutwardIcon />
+                </div>
                 <ul className="list-disc pl-5">
                   {description.map((desc, index) => (
                     <li key={index} className="tracking-tight">
@@ -69,6 +79,6 @@ export default function ExpCard({
           </Grid>
         </div>
       </Paper>
-    </>
+    </a>
   );
 }

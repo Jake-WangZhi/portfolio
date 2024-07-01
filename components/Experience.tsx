@@ -3,6 +3,18 @@ import ExpCard from "./ExpCard";
 export const Experience = () => {
   const EXPERIENCES = [
     {
+      time: "June 2024 - Present",
+      title: "Graduate Course Assistant",
+      company: "University of Illinois Urbana-Champaign",
+      description: [
+        "Assisted in teaching CS411 - Database Systems, supporting students in their learning journey by answering questions and monitoring their progress",
+        "Designed, tested, and graded coursework to ensure alignment with course objectives and student learning outcomes",
+        "Collaborated closely with teaching staff to enhance course content and delivery, contributing to a dynamic learning environment",
+      ],
+      techStacks: ["Sql", "MySql", "MongoDB", "Neo4j"],
+      url: "https://illinois.edu/",
+    },
+    {
       time: "Jun 2021 - Aug 2023",
       title: "Full Stack Software Engineer",
       company: "Foundry Co",
@@ -29,6 +41,7 @@ export const Experience = () => {
         "Spring",
         "Vue.js",
       ],
+      url: "https://x.com/foundrymakes",
     },
     {
       time: "Feb 2018 - Aug 2018",
@@ -42,6 +55,19 @@ export const Experience = () => {
         "Designed and wrote a manual for further research",
       ],
       techStacks: ["Linux", "Fortran"],
+      url: "https://www.stthomas.edu",
+    },
+    {
+      time: "Jul 2017 - Aug 2017",
+      title: "Undergraduate Research Assistant",
+      company: "University of St. Thomas",
+      description: [
+        "Simulated various magnetic fields to research the relationship between different shapes of magnetic materials and their unique properties on OOMMF (The Object Oriented Micromagnetic Framework)",
+        "Independently recorded, analyzed and summarized results; contributed to published research",
+        "Designed professional presentations to present findings to the professor and the research team",
+      ],
+      techStacks: ["Linux", "Fortran"],
+      url: "https://www.stthomas.edu",
     },
   ];
 
@@ -55,6 +81,7 @@ export const Experience = () => {
           company={exp.company}
           description={exp.description}
           techStacks={exp.techStacks}
+          url={exp.url}
         />
       ))}
     </div>
