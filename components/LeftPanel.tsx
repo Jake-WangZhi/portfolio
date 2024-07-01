@@ -3,7 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export const LeftPanel = () => {
   return (
-    <div className="flex flex-col justify-between h-full">
+    <div className="flex flex-col justify-between py-24 sticky top-0 md:h-screen md:pb-40">
       <div className="flex flex-col gap-4">
         <div className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
           &quot;Jake&quot; Zhi Wang
@@ -11,11 +11,11 @@ export const LeftPanel = () => {
         <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
           Full Stack Software Engineer
         </div>
-        <p className="text-slate-400 md:pr-56">
+        <p className="text-slate-400">
           I build pixel-perfect, engaging, and accessible digital experiences.
         </p>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 sm: py-4">
         <a
           href="https://github.com/Jake-WangZhi"
           target="_blank"
