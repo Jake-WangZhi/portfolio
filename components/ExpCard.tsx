@@ -38,14 +38,14 @@ export default function ExpCard({
             <div className="flex flex-col gap-2">
               <h1
                 className={`text-lg font-medium ${
-                  hover ? "text-teal-300 underline" : "text-slate-200"
+                  hover ? "text-teal-300" : "text-slate-200"
                 }`}
               >
                 {title}
               </h1>
               <div
                 className={`flex text-sm justify-end gap-1 items-center ${
-                  hover ? "text-teal-300" : "text-slate-200"
+                  hover ? "text-teal-300 underline" : "text-slate-200"
                 }`}
               >
                 {company}
