@@ -1,11 +1,22 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
-import EmailIcon from "@mui/icons-material/Email";
 import SendIcon from "@mui/icons-material/Send";
+import { useState } from "react";
+import { useIntersectionObserver } from "./UseIntersectionObserver";
 
 export const LeftPanel = () => {
   const resumeUrl = "/ZhiWang_Resume.pdf";
+  const [activeSection, setActiveSection] = useState("About");
+
+  useIntersectionObserver(setActiveSection);
+
+  const handleScrollToSection = (sectionId: string) => {
+    const sectionElement = document.getElementById(sectionId);
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="flex flex-col justify-between py-24 sticky top-0 md:h-screen md:pb-20">
@@ -28,15 +39,33 @@ export const LeftPanel = () => {
           <ArrowOutwardIcon style={{ fontSize: 20 }} />
         </a>
       </div>
-
+      <div className="flex flex-col gap-4 text-slate-400">
+        {["about", "experience", "publication"].map((section) => (
+          <div
+            key={section}
+            className={`flex items-center cursor-pointer ${
+              activeSection === section ? "text-slate-200" : ""
+            }`}
+            onClick={() => handleScrollToSection(section)}
+          >
+            <span
+              className={`block h-0.5 transition-all duration-500 ${
+                activeSection === section
+                  ? "w-16 bg-slate-200"
+                  : "w-8 bg-slate-500"
+              }  mr-2`}
+            ></span>
+            <span
+              className={`${
+                activeSection === section ? "text-slate-200" : "text-slate-500"
+              } hover:text-slate-200 uppercase font-bold`}
+            >
+              {section}
+            </span>
+          </div>
+        ))}
+      </div>
       <div className="flex flex-col gap-4 sm:py-4">
-        {/* <a
-          href="mailto:jakewangzhi@gmail.com"
-          target="_blank"
-          className="text-slate-400 cursor-pointer hover:text-slate-200"
-        >
-          <EmailIcon fontSize="large" />
-        </a> */}
         <a
           href="mailto:jakewangzhi@gmail.com"
           target="_blank"

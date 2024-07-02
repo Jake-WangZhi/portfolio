@@ -1,4 +1,4 @@
-import ExpCard from "./ExpCard";
+import Card from "./Card";
 
 export const Experience = () => {
   const EXPERIENCES = [
@@ -76,7 +76,7 @@ export const Experience = () => {
   return (
     <div className="flex flex-col gap-4">
       {EXPERIENCES.map((exp, index) => (
-        <ExpCard
+        <Card
           key={index}
           time={exp.time}
           title={exp.title}

@@ -6,12 +6,12 @@ interface Props {
   time: string;
   title: string;
   company: string;
-  description: Array<string>;
-  techStacks: Array<string>;
-  url: string;
+  description?: Array<string>;
+  techStacks?: Array<string>;
+  url?: string;
 }
 
-export default function ExpCard({
+export default function Card({
   time,
   title,
   company,
@@ -52,14 +52,14 @@ export default function ExpCard({
                 <ArrowOutwardIcon style={{ fontSize: 20 }} />
               </div>
               <ul className="list-disc pl-5">
-                {description.map((desc, index) => (
+                {description?.map((desc, index) => (
                   <li key={index} className="tracking-tight">
                     {desc}
                   </li>
                 ))}
               </ul>
               <div className="flex gap-2 pt-2 flex-wrap">
-                {techStacks.map((tech, index) => (
+                {techStacks?.map((tech, index) => (
                   <Chip
                     key={index}
                     label={tech}
