@@ -35,7 +35,7 @@ export const IntersectionTracker = () => {
 
   return (
     <div className="flex flex-col gap-4 text-slate-400">
-      {["about", "experience", "publication"].map((section) => (
+      {["about", "experience", "projects", "publications"].map((section) => (
         <div
           key={section}
           className={`flex items-center cursor-pointer ${

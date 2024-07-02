@@ -1,6 +1,7 @@
 import { About } from "./About";
 import { Experience } from "./Experience";
-import { Publication } from "./Publication";
+import { Projects } from "./Projects";
+import { Publications } from "./Publications";
 
 export const RightPanel = () => {
   return (
@@ -11,8 +12,12 @@ export const RightPanel = () => {
       <section id="experience">
         <Experience />
       </section>
-      <section id="publication">
-        <Publication />
+
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="publications">
+        <Publications />
       </section>
     </div>
   );
