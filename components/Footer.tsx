@@ -17,14 +17,14 @@ export const Footer = () => {
         <a
           href="https://github.com/Jake-WangZhi"
           target="_blank"
-          className="text-slate-400 cursor-pointer hover:text-slate-200"
+          className="text-slate-400 cursor-pointer hover:text-teal-300"
         >
           <GitHubIcon fontSize="large" />
         </a>
         <a
           href="https://www.linkedin.com/in/jake0wang/"
           target="_blank"
-          className="text-slate-400 cursor-pointer hover:text-slate-200"
+          className="text-slate-400 cursor-pointer hover:text-teal-300"
         >
           <LinkedInIcon fontSize="large" />
         </a>

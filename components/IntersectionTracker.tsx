@@ -53,7 +53,7 @@ export const IntersectionTracker = () => {
           <span
             className={`${
               activeSection === section ? "text-slate-200" : "text-slate-500"
-            } hover:text-slate-200 uppercase font-semibold`}
+            } hover:text-teal-300 uppercase font-semibold`}
           >
             {section}
           </span>

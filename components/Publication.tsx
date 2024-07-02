@@ -10,7 +10,10 @@ export const Publication = () => {
   };
 
   return (
-    <div className="pb-24">
+    <div className="flex flex-col gap-4 pb-24">
+      <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-2xl">
+        PUBLICATIONS
+      </div>
       <Card
         time={PUBLICATION.time}
         title={PUBLICATION.title}

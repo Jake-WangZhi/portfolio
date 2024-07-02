@@ -75,6 +75,9 @@ export const Experience = () => {
 
   return (
     <div className="flex flex-col gap-4">
+      <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-2xl">
+        EXPERIENCE
+      </div>
       {EXPERIENCES.map((exp, index) => (
         <Card
           key={index}

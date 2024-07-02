@@ -1,6 +1,9 @@
 export const About = () => {
   return (
     <div className="text-slate-400 text-base flex flex-col gap-4 leading-7 pt-24">
+      <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-2xl">
+        ABOUT
+      </div>
       <p>
         Motivated software engineer with 2+ years of front-end and back-end
         development experience, currently pursuing a master&apos;s degree in
