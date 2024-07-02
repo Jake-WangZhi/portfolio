@@ -39,10 +39,10 @@ export default function ExpCard({
               <div className="text-sm pt-0.5">{time}</div>
             </Grid>
             <Grid item xs={12} md={9}>
-              <div className="flex flex-col gap-2 text-base">
+              <div className="flex flex-col gap-2">
                 <h1
-                  className={`font-medium ${
-                    hover ? "text-teal-300" : "text-slate-200"
+                  className={`text-lg font-medium ${
+                    hover ? "text-teal-300 underline" : "text-slate-200"
                   }`}
                 >
                   {title}
@@ -53,7 +53,7 @@ export default function ExpCard({
                   }`}
                 >
                   {company}
-                  <ArrowOutwardIcon />
+                  <ArrowOutwardIcon style={{ fontSize: 20 }} />
                 </div>
                 <ul className="list-disc pl-5">
                   {description.map((desc, index) => (

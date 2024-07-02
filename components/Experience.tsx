@@ -1,6 +1,9 @@
 import ExpCard from "./ExpCard";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 export const Experience = () => {
+  const resumeUrl = "/ZhiWang_Resume.pdf";
+
   const EXPERIENCES = [
     {
       time: "June 2024 - Present",
@@ -84,6 +87,16 @@ export const Experience = () => {
           url={exp.url}
         />
       ))}
+      <div className="mt-4">
+        <a
+          href={resumeUrl}
+          target="_blank"
+          className="tracking-wider font-bold text-slate-200 hover:underline hover:text-teal-300"
+        >
+          View My Resume
+          <ArrowOutwardIcon style={{ fontSize: 20 }} />
+        </a>
+      </div>
     </div>
   );
 };
