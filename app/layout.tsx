@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "tailwindcss/tailwind.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-background`}>{children}</body>
+      <body className={`${poppins.className} bg-background`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
