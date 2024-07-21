@@ -3,16 +3,41 @@ import ProjectCard from "./ProjectCard";
 export const Projects = () => {
   const PROJECTS = [
     {
-      time: "Sep 2020 - Dec 2020",
-      title: "Pronunciation Tool for Learning Tonal Languages",
+      time: "April 2024 - May 2024",
+      title: "StockScope360",
       description: [
-        "Collaborated with my team to upgrade the existing pronunciation tool and increase user-friendliness by organizing all features of the program to be displayed in a single window",
-        "Created an upgrade to the program to further improve user experience; this upgrade integrated a tone prediction feedback algorithm, automatically analyzed the audio file that the user recorded, and interpreted the recorded tone using the trained Convolutional Neural Network (CNN)",
-        "Improved user experience by providing the user with a score between 0 and 100, and textual feedback based on the difference between the user and reference pitch contours",
-        "Implemented a custom search bar for word searching and the “shuffle” function for selecting words randomly, which further improved the user's experience",
+        "Designed and implemented a comprehensive stock market visualization application with a user-friendly interface",
+        "Accumulated stock prices into a single graph, enabling users to compare and analyze different stocks efficiently",
+        "Utilized Single Sign-On (SSO) through Google for secure user authentication and personalized configurations",
+        "Developed features allowing users to view stock prices for various stocks in one place, customize time frames and data frequencies, and create personalized lists of favorite stocks",
+        "Implemented currency conversion for stock prices and integrated a search bar for detailed stock information",
+        "Stored and managed all stock price data and user information using MySQL on Google Cloud Platform (GCP)",
+        "Deployed the application on Vercel",
       ],
-      techStacks: ["Python"],
-      url: "https://github.com/Jake-WangZhi/PronunicationTool",
+      techStacks: [
+        "Typescript",
+        "Next.js",
+        "React",
+        "MySql",
+        "GCP",
+        "Vercel",
+        "TailwindCSS",
+      ],
+      url: "https://stockscope.vercel.app",
+    },
+    {
+      time: "Dec 2022",
+      title: "An Interactive Website for a Chinese Tutoring Service",
+      description: [
+        "Designed and implemented a comprehensive static website for a Chinese language tutor using the Docusaurus framework",
+        "Developed user-friendly interfaces to facilitate easy navigation and access to tutoring resources",
+        "Integrated scheduling, booking, and emailing functionalities to streamline the tutor's appointment management",
+        "Implemented functionality allowing the client to update YouTube lessons on the site, utilizing the serverless function on Supabase to interact with YouTube lesson info data",
+        "Collaborated with the client to gather requirements and ensure the website met their needs",
+        "Deployed the website on Netlify",
+      ],
+      techStacks: ["Javascript", "React", "Supabase", "Netlify", "Docusaurus"],
+      url: "https://github.com/Jake-WangZhi/chinese-tutoring-service-website",
     },
     {
       time: "Nov 2020 - Dec 2020",
@@ -37,15 +62,16 @@ export const Projects = () => {
       url: "https://github.com/Jake-WangZhi/Calendar-Website",
     },
     {
-      time: "Jun 2020",
-      title: "Multi-agent Flocking Simulation",
+      time: "Sep 2020 - Dec 2020",
+      title: "Pronunciation Tool for Learning Tonal Languages",
       description: [
-        "Coded in Java to create a shoal of simulated fish with flocking behavior in Processing",
-        "Designed a game mode so that users can interact with the fish, control a shark chasing the fish, and place obstacles for the fish to swim around",
-        "build a website to showcase the project using Google Sites",
+        "Collaborated with my team to upgrade the existing pronunciation tool and increase user-friendliness by organizing all features of the program to be displayed in a single window",
+        "Created an upgrade to the program to further improve user experience; this upgrade integrated a tone prediction feedback algorithm, automatically analyzed the audio file that the user recorded, and interpreted the recorded tone using the trained Convolutional Neural Network (CNN)",
+        "Improved user experience by providing the user with a score between 0 and 100, and textual feedback based on the difference between the user and reference pitch contours",
+        "Implemented a custom search bar for word searching and the “shuffle” function for selecting words randomly, which further improved the user's experience",
       ],
-      techStacks: ["Java", "Processing"],
-      url: "https://github.com/Jake-WangZhi/Multi-agent-Flocking-Simulation",
+      techStacks: ["Python"],
+      url: "https://github.com/Jake-WangZhi/PronunicationTool",
     },
   ];
 

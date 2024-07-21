@@ -35,7 +35,7 @@ export default function ProjectCard({
           <Grid item xs={12} md={9}>
             <div className="flex flex-col gap-2">
               <h1
-                className={`text-lg font-medium ${
+                className={`text-lg font-medium flex items-center ${
                   hover ? "text-teal-300" : "text-slate-200"
                 }`}
               >
