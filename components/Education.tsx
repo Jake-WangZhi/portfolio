@@ -82,7 +82,7 @@ export const Education = () => {
             <h3 className="text-slate-200 font-medium">GPA: 4.0</h3>
           </div>
           <h3 className="text-slate-200 font-medium">Relevant Courses:</h3>
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             {UIUC_COURSES.map((course, index) => (
               <CourseChip title={course.title} link={course.link} key={index} />
             ))}
