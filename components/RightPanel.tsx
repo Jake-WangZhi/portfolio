@@ -1,4 +1,5 @@
 import { About } from "./About";
+import { Education } from "./Education";
 import { Experience } from "./Experience";
 import { Projects } from "./Projects";
 import { Publications } from "./Publications";
@@ -9,10 +10,12 @@ export const RightPanel = () => {
       <section id="about">
         <About />
       </section>
+      <section id="education">
+        <Education />
+      </section>
       <section id="experience">
         <Experience />
       </section>
-
       <section id="projects">
         <Projects />
       </section>
