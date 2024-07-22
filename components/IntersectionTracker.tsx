@@ -1,21 +1,70 @@
 import { useEffect, useRef, useState } from "react";
 
 export const IntersectionTracker = () => {
-  const [activeSection, setActiveSection] = useState("About");
+  const [activeSection, setActiveSection] = useState("about");
+  const intersectingElements = useRef<
+    { id: string; ratio: number; top: number }[]
+  >([]);
+  const lastScrollY = useRef(0);
 
   const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {
     const observerCallback = (entries: IntersectionObserverEntry[]) => {
+      const scrollingDown = window.scrollY > lastScrollY.current;
+      lastScrollY.current = window.scrollY;
+
       entries.forEach((entry) => {
+        const { id } = entry.target;
+        const ratio = entry.intersectionRatio;
+        const top = entry.boundingClientRect.top;
+
         if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
+          const index = intersectingElements.current.findIndex(
+            (el) => el.id === id
+          );
+          if (index > -1) {
+            intersectingElements.current[index] = { id, ratio, top };
+          } else {
+            intersectingElements.current.push({ id, ratio, top });
+          }
+        } else {
+          intersectingElements.current = intersectingElements.current.filter(
+            (el) => el.id !== id
+          );
         }
       });
+
+      intersectingElements.current.sort((a, b) => a.top - b.top);
+
+      if (intersectingElements.current.length > 0) {
+        if (scrollingDown) {
+          const lastSignificantSection = intersectingElements.current
+            .filter((el) => el.ratio >= 0.5)
+            .pop();
+          if (lastSignificantSection) {
+            setActiveSection(lastSignificantSection.id);
+          } else {
+            setActiveSection(
+              intersectingElements.current[
+                intersectingElements.current.length - 1
+              ].id
+            );
+          }
+        } else {
+          const firstVisibleSection = intersectingElements.current.find(
+            (el) => el.ratio >= 0.1
+          );
+          if (firstVisibleSection) {
+            setActiveSection(firstVisibleSection.id);
+          }
+        }
+      }
     };
 
     observerRef.current = new IntersectionObserver(observerCallback, {
-      threshold: 0.5,
+      threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+      rootMargin: "-1px 0px -10% 0px",
     });
 
     const sections = document.querySelectorAll("section");
@@ -24,7 +73,7 @@ export const IntersectionTracker = () => {
     return () => {
       observerRef.current?.disconnect();
     };
-  }, [setActiveSection]);
+  }, []);
 
   const handleScrollToSection = (sectionId: string) => {
     const sectionElement = document.getElementById(sectionId);
