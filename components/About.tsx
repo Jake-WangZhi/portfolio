@@ -5,9 +5,10 @@ export const About = () => {
         ABOUT
       </div>
       <p>
-        Motivated software engineer with 2+ years of front-end and back-end
-        development experience, currently pursuing a master&apos;s degree in
-        Computer Science at the University of Illinois-Urbana-Champaign.
+        Motivated software engineer with 3 years of professional development
+        experience in both front-end and back-end development, currently
+        pursuing a master&apos;s degree in Computer Science at the University of
+        Illinois at Urbana-Champaign.
       </p>
       <p>
         Proficient in TypeScript/JavaScript, Java, Python and C++, and skilled
