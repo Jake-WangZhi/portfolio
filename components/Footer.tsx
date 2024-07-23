@@ -4,7 +4,7 @@ import SendIcon from "@mui/icons-material/Send";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col gap-4 sm:py-4">
+    <div className="flex flex-col gap-4 py-4">
       <a
         href="mailto:jakewangzhi@gmail.com"
         target="_blank"

@@ -83,7 +83,7 @@ export const IntersectionTracker = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 text-slate-400">
+    <div className="flex flex-col gap-4 text-slate-400 max-sm:hidden">
       {["about", "education", "experience", "projects", "publications"].map(
         (section) => (
           <div
