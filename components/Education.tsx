@@ -66,7 +66,7 @@ export const Education = () => {
 
   return (
     <div className="text-slate-400 text-base flex flex-col gap-4 leading-7 pt-4">
-      <div className="sticky top-0 bg-background text-lg font-medium tracking-tight text-slate-200 sm:text-2xl max-sm:py-4 max-sm:z-50">
+      <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-2xl max-sm:py-4 max-sm:z-50 max-sm:sticky max-sm:top-0 max-sm:bg-background">
         EDUCATION
       </div>
       <div className="flex flex-col gap-5">
