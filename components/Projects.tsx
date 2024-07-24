@@ -7,12 +7,12 @@ export const Projects = () => {
       title: "Lil Networking",
       description: [
         "Designed and implemented a multi-platform Progressive Web App using Next.js and a native mobile app using Expo to help people form networking habits",
-        "Utilized Prisma ORM for seamless interaction with PostgreSQL databases, enabling efficient data management and retrieval",
-        "Designed user-friendly interfaces using TailwindCSS and Material-UI to facilitate easy navigation and interaction",
+        "Created user-friendly interfaces using TailwindCSS and Material-UI to facilitate easy navigation and interaction",
         "Utilized OpenID Connect Sign-In through LinkedIn for secure user authentication and personalized configurations",
+        "Leveraged Prisma ORM for seamless interaction with PostgreSQL, enabling efficient data management and retrieval",
         "Enabled Progressive Web App (PWA) capabilities for an enhanced user experience on all devices",
         "Set up push notifications using web-push to keep users engaged and informed about networking opportunities",
-        "Deployed the application on Vercel",
+        "Deployed the application and added analytics on Vercel to better understand user preferences",
       ],
       techStacks: [
         "Typescript",
