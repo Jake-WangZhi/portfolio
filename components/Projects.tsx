@@ -3,6 +3,31 @@ import ProjectCard from "./ProjectCard";
 export const Projects = () => {
   const PROJECTS = [
     {
+      time: "May 2023 - Present",
+      title: "Lil Networking",
+      description: [
+        "Designed and implemented a multi-platform Progressive Web App using Next.js and a native mobile app using Expo to help people form networking habits",
+        "Utilized Prisma ORM for seamless interaction with PostgreSQL databases, enabling efficient data management and retrieval",
+        "Designed user-friendly interfaces using TailwindCSS and Material-UI to facilitate easy navigation and interaction",
+        "Utilized OpenID Connect Sign-In through LinkedIn for secure user authentication and personalized configurations",
+        "Enabled Progressive Web App (PWA) capabilities for an enhanced user experience on all devices",
+        "Set up push notifications using web-push to keep users engaged and informed about networking opportunities",
+        "Deployed the application on Vercel",
+      ],
+      techStacks: [
+        "Typescript",
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Vercel",
+        "TailwindCSS",
+        "MUI",
+        "Prisma",
+        "Expo",
+      ],
+      url: "https://lil-networking.vercel.app/",
+    },
+    {
       time: "April 2024 - May 2024",
       title: "StockScope360",
       description: [
@@ -28,7 +53,7 @@ export const Projects = () => {
     },
     {
       time: "Dec 2022",
-      title: "An Interactive Website for a Chinese Tutoring Service",
+      title: "Chinese Tutoring Service Website",
       description: [
         "Designed and implemented a comprehensive static website for a Chinese language tutor using the Docusaurus framework",
         "Developed user-friendly interfaces to facilitate easy navigation and access to tutoring resources",
