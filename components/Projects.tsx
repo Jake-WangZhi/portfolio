@@ -22,6 +22,7 @@ export const Projects = () => {
         "GCP",
         "Vercel",
         "TailwindCSS",
+        "MUI",
       ],
       url: "https://stockscope.vercel.app",
     },
