@@ -24,7 +24,7 @@ export const Projects = () => {
         "TailwindCSS",
         "MUI",
       ],
-      url: "https://stockscope.vercel.app",
+      url: "https://stockscope360.vercel.app",
     },
     {
       time: "Dec 2022",
@@ -38,7 +38,7 @@ export const Projects = () => {
         "Deployed the website on Netlify",
       ],
       techStacks: ["Javascript", "React", "Supabase", "Netlify", "Docusaurus"],
-      url: "https://github.com/Jake-WangZhi/chinese-tutoring-service-website",
+      url: "https://chinesetutoringservice.netlify.app",
     },
     {
       time: "Nov 2020 - Dec 2020",
