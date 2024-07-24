@@ -104,7 +104,7 @@ export const Projects = () => {
   return (
     <div className="flex flex-col gap-4 pt-4">
       <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-2xl max-sm:py-4 max-sm:z-50 max-sm:sticky max-sm:top-0 max-sm:bg-background">
-        PROJECTS
+        PERSONAL PROJECTS
       </div>
       {PROJECTS.map((project, index) => (
         <ProjectCard
