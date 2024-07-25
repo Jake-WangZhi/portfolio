@@ -37,7 +37,7 @@ export const SpotLightCursor = () => {
   return (
     <div
       ref={cursorRef}
-      className="fixed top-0 left-0 w-[1000px] h-[1000px] rounded-full bg-spotlight pointer-events-none z-[50] transition-transform duration-[0.01s] ease-out"
+      className="max-sm:hidden fixed top-0 left-0 w-[1000px] h-[1000px] rounded-full bg-spotlight pointer-events-none z-[50] transition-transform duration-[0.01s] ease-out"
       style={{ willChange: "transform" }}
     />
   );
