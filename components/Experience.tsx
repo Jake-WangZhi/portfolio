@@ -7,11 +7,11 @@ export const Experience = () => {
       title: "Graduate Course Assistant",
       company: "University of Illinois Urbana-Champaign",
       description: [
-        "Assisted in teaching CS411 - Database Systems, supporting students in their learning journey by answering questions and monitoring their progress",
-        "Designed, tested, and graded coursework to ensure alignment with course objectives and student learning outcomes",
+        "Assisted in teaching Database Systems, supporting students in their learning journey by answering database-related questions and monitoring their progress",
+        "Designed, tested, and graded SQL, MySQL, MongoDB, and Neo4j machine problems to ensure alignment with course objectives and student learning outcomes",
         "Collaborated closely with teaching staff to enhance course content and delivery, contributing to a dynamic learning environment",
       ],
-      techStacks: ["Sql", "MySql", "MongoDB", "Neo4j", "Github"],
+      techStacks: ["Sql", "NoSQL", "MySql", "MongoDB", "Neo4j", "Github"],
       url: "https://illinois.edu/",
     },
     {
@@ -66,7 +66,7 @@ export const Experience = () => {
         "Collaborated with other research assistants to combine and analyze our results",
         "Designed and wrote a manual for further research",
       ],
-      techStacks: ["Linux", "Fortran"],
+      techStacks: ["Linux", "Fortran", "Matlab"],
       url: "https://www.stthomas.edu",
     },
     {
@@ -78,7 +78,7 @@ export const Experience = () => {
         "Independently recorded, analyzed and summarized results; contributed to published research",
         "Designed professional presentations to present findings to the professor and the research team",
       ],
-      techStacks: ["Linux", "Fortran"],
+      techStacks: ["Linux", "Fortran", "Matlab"],
       url: "https://www.stthomas.edu",
     },
   ];
