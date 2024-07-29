@@ -75,7 +75,7 @@ export const Education = () => {
             <h1 className={`text-slate-200 text-lg font-medium`}>
               University of Illinois Urbana - Champaign
             </h1>
-            <h3>Expected Dec 2024</h3>
+            <h3>Expected 2024</h3>
           </div>
           <div className="flex justify-between">
             <h3>Master of Computer Science</h3>

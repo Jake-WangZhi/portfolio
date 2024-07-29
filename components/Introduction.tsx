@@ -1,7 +1,7 @@
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 export const Introduction = () => {
-  const resumeUrl = "/ZhiWang_Resume.pdf";
+  const resumeUrl = "/JakeWang_Resume.pdf";
 
   return (
     <div className="flex flex-col gap-4">
