@@ -8,7 +8,7 @@ export const Projects = () => {
       description: [
         "Designed and implemented a multi-platform Progressive Web App using Next.js and a native mobile app using Expo to help people form networking habits",
         "Created user-friendly interfaces using TailwindCSS and Material-UI to facilitate easy navigation and interaction",
-        "Utilized OpenID Connect Sign-In through LinkedIn for secure user authentication and personalized configurations",
+        "Utilized OAuth login thru LinkedIn and Google for secure user authentication and personalized configurations",
         "Leveraged Prisma ORM for seamless interaction with PostgreSQL, enabling efficient data management and retrieval",
         "Enabled Progressive Web App (PWA) capabilities for an enhanced user experience on all devices",
         "Set up push notifications using web-push to keep users engaged and informed about networking opportunities",
