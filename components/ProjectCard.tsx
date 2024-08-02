@@ -23,7 +23,7 @@ export default function ProjectCard({
     <a
       href={url}
       target="_blank"
-      className="rounded-md bg-transparent hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg"
+      className="group rounded-md bg-transparent hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
@@ -36,11 +36,11 @@ export default function ProjectCard({
             <div className="flex flex-col gap-2">
               <h1
                 className={`text-lg font-medium flex items-center ${
-                  hover ? "text-teal-300" : "text-slate-200"
+                  hover ? "text-teal-300 underline" : "text-slate-200"
                 }`}
               >
                 {title}
-                <ArrowOutwardIcon style={{ fontSize: 20 }} />
+                <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
               </h1>
               <ul className="list-disc pl-5">
                 {description?.map((desc, index) => (

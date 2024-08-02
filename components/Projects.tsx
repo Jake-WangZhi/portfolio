@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 export const Projects = () => {
   const PROJECTS = [
@@ -17,13 +18,14 @@ export const Projects = () => {
       techStacks: [
         "Typescript",
         "Next.js",
-        "React",
+        "React.js",
         "PostgreSQL",
         "Vercel",
         "TailwindCSS",
         "MUI",
         "Prisma",
         "Expo",
+        "GitHub",
       ],
       url: "https://lil-networking.vercel.app/",
     },
@@ -42,12 +44,13 @@ export const Projects = () => {
       techStacks: [
         "Typescript",
         "Next.js",
-        "React",
+        "React.js",
         "MySql",
         "GCP",
         "Vercel",
         "TailwindCSS",
         "MUI",
+        "GitHub",
       ],
       url: "https://stockscope360.vercel.app",
     },
@@ -62,7 +65,15 @@ export const Projects = () => {
         "Collaborated with the client to gather requirements and ensure the website met their needs",
         "Deployed the website on Netlify",
       ],
-      techStacks: ["Javascript", "React", "Supabase", "Netlify", "Docusaurus"],
+      techStacks: [
+        "Javascript",
+        "React.js",
+        "Supabase",
+        "PostgreSQL",
+        "Netlify",
+        "Docusaurus",
+        "GitHub",
+      ],
       url: "https://chinesetutoringservice.netlify.app",
     },
     // {
@@ -111,9 +122,10 @@ export const Projects = () => {
         <a
           href="https://github.com/Jake-WangZhi"
           target="_blank"
-          className="underline cursor-pointer hover:text-teal-300"
+          className="group underline cursor-pointer hover:text-teal-300"
         >
           GitHub
+          <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
         </a>
         )
       </div>

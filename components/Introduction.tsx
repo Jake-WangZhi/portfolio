@@ -17,10 +17,10 @@ export const Introduction = () => {
       <a
         href={resumeUrl}
         target="_blank"
-        className="text-lg tracking-wider font-bold text-slate-200 hover:underline hover:text-teal-300"
+        className="group text-lg tracking-wider font-bold text-slate-200 hover:underline hover:text-teal-300"
       >
         View My Resume
-        <ArrowOutwardIcon style={{ fontSize: 20 }} />
+        <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
       </a>
     </div>
   );
