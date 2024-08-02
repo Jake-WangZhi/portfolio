@@ -106,6 +106,17 @@ export const Projects = () => {
       <div className="text-lg font-medium tracking-tight text-slate-200 sm:text-2xl max-sm:py-4 max-sm:z-50 max-sm:sticky max-sm:top-0 max-sm:bg-background">
         PERSONAL PROJECTS
       </div>
+      <div className="text-slate-300">
+        (All my source code can be found at my{" "}
+        <a
+          href="https://github.com/Jake-WangZhi"
+          target="_blank"
+          className="underline cursor-pointer hover:text-teal-300"
+        >
+          GitHub
+        </a>
+        )
+      </div>
       {PROJECTS.map((project, index) => (
         <ProjectCard
           key={index}
