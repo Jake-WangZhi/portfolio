@@ -40,7 +40,7 @@ export default function ProjectCard({
                 }`}
               >
                 {title}
-                <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
+                <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1" />
               </h1>
               <ul className="list-disc pl-5">
                 {description?.map((desc, index) => (

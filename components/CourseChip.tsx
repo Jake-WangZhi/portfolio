@@ -16,7 +16,7 @@ export const CourseChip = ({ title, link }: Props) => {
         <div className="group flex gap-1 items-center">
           {title}
           {!!hover && (
-            <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
+            <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1" />
           )}
         </div>
       }

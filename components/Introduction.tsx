@@ -20,7 +20,7 @@ export const Introduction = () => {
         className="group text-lg tracking-wider font-bold text-slate-200 hover:underline hover:text-teal-300"
       >
         View My Resume
-        <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
+        <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1" />
       </a>
     </div>
   );

@@ -8,10 +8,10 @@ export const Footer = () => {
       <a
         href="mailto:jakewangzhi@gmail.com"
         target="_blank"
-        className="flex items-center gap-1 tracking-widest font-bold text-slate-400 hover:underline hover:text-teal-300"
+        className="group flex items-center gap-1 tracking-widest font-bold text-slate-400 hover:underline hover:text-teal-300"
       >
         <p>jakewangzhi@gmail.com</p>
-        <SendIcon fontSize="small" />
+        <SendIcon className="text-xl transition-transform duration-300 group-hover:translate-x-[4px]" />
       </a>
       <div className="flex gap-4">
         <a

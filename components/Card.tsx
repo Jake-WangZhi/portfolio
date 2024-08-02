@@ -49,7 +49,7 @@ export default function Card({
                 }`}
               >
                 {company}
-                <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
+                <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1" />
               </div>
               <ul className="list-disc pl-5">
                 {description?.map((desc, index) => (

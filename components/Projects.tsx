@@ -125,7 +125,7 @@ export const Projects = () => {
           className="group underline cursor-pointer hover:text-teal-300"
         >
           GitHub
-          <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:translate-y-[-2px] group-hover:translate-x-[2px]" />
+          <ArrowOutwardIcon className="text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1" />
         </a>
         )
       </div>
