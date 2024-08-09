@@ -32,8 +32,8 @@ export const Experience = () => {
         "Interacted professionally with clients to understand their needs and provide daily technical assistance",
       ],
       techStacks: [
-        "Javascript",
-        "Typescript",
+        "JavaScript",
+        "TypeScript",
         "Java",
         "SQL",
         "React.js",

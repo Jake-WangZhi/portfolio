@@ -16,7 +16,7 @@ export const Projects = () => {
         "Deployed the application and added analytics on Vercel to better understand user preferences",
       ],
       techStacks: [
-        "Typescript",
+        "TypeScript",
         "Next.js",
         "React.js",
         "PostgreSQL",
@@ -42,7 +42,7 @@ export const Projects = () => {
         "Deployed the application on Vercel",
       ],
       techStacks: [
-        "Typescript",
+        "TypeScript",
         "Next.js",
         "React.js",
         "MySql",
@@ -66,7 +66,7 @@ export const Projects = () => {
         "Deployed the website on Netlify",
       ],
       techStacks: [
-        "Javascript",
+        "JavaScript",
         "React.js",
         "Supabase",
         "PostgreSQL",
@@ -87,7 +87,7 @@ export const Projects = () => {
     //     "Deployed the website to Heroku",
     //   ],
     //   techStacks: [
-    //     "Javascript",
+    //     "JavaScript",
     //     "Express.js",
     //     "Ajax",
     //     "HTML",
