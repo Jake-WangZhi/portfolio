@@ -58,6 +58,7 @@ export const Experience = () => {
         "Heroku",
         "BitBucket",
         "GitLab",
+        "Monorepo",
         "Jira",
         "Favro",
       ],
