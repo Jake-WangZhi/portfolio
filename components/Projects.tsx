@@ -27,7 +27,7 @@ export const Projects = () => {
         "Expo",
         "GitHub",
       ],
-      url: "https://lil-networking.vercel.app/",
+      url: "https://lil-networking-web.vercel.app",
     },
     {
       time: "April 2024 - May 2024",
