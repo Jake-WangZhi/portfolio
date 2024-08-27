@@ -4,7 +4,7 @@ export const Experience = () => {
   const EXPERIENCES = [
     {
       time: "June 2024 - Present",
-      title: "Graduate Course Assistant",
+      title: "Graduate Course Assistant - Database Systems",
       company: "University of Illinois Urbana-Champaign",
       description: [
         "Assisted in teaching Database Systems, supporting students in their learning journey by answering database-related questions and monitoring their progress",
