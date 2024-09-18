@@ -3,6 +3,14 @@ import { CourseChip } from "./CourseChip";
 export const Education = () => {
   const UIUC_COURSES = [
     {
+      title: "Software Engineering I",
+      link: "https://siebelschool.illinois.edu/academics/courses/cs427",
+    },
+    {
+      title: "Topics in Software Engineering",
+      link: "https://siebelschool.illinois.edu/academics/courses/cs527",
+    },
+    {
       title: "Database Systems",
       link: "https://siebelschool.illinois.edu/academics/courses/cs411",
     },
@@ -17,6 +25,10 @@ export const Education = () => {
     {
       title: "Cloud Computing Applications",
       link: "https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=510",
+    },
+    {
+      title: "Advanced Data Management",
+      link: "https://siebelschool.illinois.edu/academics/courses/cs511",
     },
   ];
 
