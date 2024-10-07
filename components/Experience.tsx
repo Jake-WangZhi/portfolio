@@ -13,7 +13,15 @@ export const Experience = () => {
         "Ensuring code quality, prioritizing multilingual accessibility and cultural alignment for the Q’anjob’al community",
         "Collaborating with a cross-functional team to integrate features and develop critical components",
       ],
-      techStacks: ["Sql", "NoSQL", "MySql", "MongoDB", "Neo4j", "GitHub"],
+      techStacks: [
+        "React Native",
+        "Expo",
+        "Next.js",
+        "PostgreSQL",
+        "AWS",
+        "Vercel",
+        "GitHub",
+      ],
       url: "https://www.illinoisenactus.com/",
     },
     {
