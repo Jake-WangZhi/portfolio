@@ -3,6 +3,20 @@ import Card from "./Card";
 export const Experience = () => {
   const EXPERIENCES = [
     {
+      time: "Sep 2024 - Present",
+      title: "Tech Lead - Volunteer",
+      company: "Illinois Enactus - Jila",
+      description: [
+        "Leading the development of the Jila app, building a multilingual, community-centric solution for the Q’anjob’al community using Next.js, React Native, and PostgreSQL",
+        "Establishing the core app structure, focusing on database design, API integration, and scalability to effectively enable team-led feature development that accommodates future enhancements",
+        "Mentoring junior developers by providing guidance and support while delegating technical responsibilities to foster their growth and professional development, all while maintaining alignment with project goals",
+        "Ensuring code quality, prioritizing multilingual accessibility and cultural alignment for the Q’anjob’al community",
+        "Collaborating with a cross-functional team to integrate features and develop critical components",
+      ],
+      techStacks: ["Sql", "NoSQL", "MySql", "MongoDB", "Neo4j", "GitHub"],
+      url: "https://www.illinoisenactus.com/",
+    },
+    {
       time: "May 2024 - Present",
       title: "Graduate Course Assistant - Database Systems",
       company: "University of Illinois Urbana-Champaign",
