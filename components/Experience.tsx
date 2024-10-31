@@ -22,7 +22,7 @@ export const Experience = () => {
         "Vercel",
         "GitHub",
       ],
-      url: "https://www.illinoisenactus.com/",
+      url: "https://www.illinoisenactus.com/jila",
     },
     {
       time: "May 2024 - Present",
