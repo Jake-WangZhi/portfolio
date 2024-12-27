@@ -91,7 +91,7 @@ export const Education = () => {
           </div>
           <div className="flex justify-between">
             <h3>Master of Computer Science</h3>
-            <h3 className="text-slate-200 font-medium">GPA: 4.0</h3>
+            <h3 className="text-slate-200 font-medium">GPA: 3.94</h3>
           </div>
           <h3 className="text-slate-200 font-medium">Relevant Courses:</h3>
           <div className="flex gap-2 flex-wrap">
@@ -110,7 +110,7 @@ export const Education = () => {
           </div>
           <div className="flex justify-between">
             <h3>Bachelor of Computer Engineering</h3>
-            <h3 className="text-slate-200 font-medium">GPA: 3.5</h3>
+            <h3 className="text-slate-200 font-medium">GPA: 3.53</h3>
           </div>
           <h3 className="text-slate-200 font-medium">Relevant Courses:</h3>
           <div className="flex gap-2 flex-wrap">
