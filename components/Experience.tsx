@@ -3,7 +3,7 @@ import Card from "./Card";
 export const Experience = () => {
   const EXPERIENCES = [
     {
-      time: "Sep 2024 - Present",
+      time: "Sep 2024 - Dec 2024",
       title: "Tech Lead - Volunteer",
       company: "Illinois Enactus - Jila",
       description: [
@@ -26,7 +26,7 @@ export const Experience = () => {
     },
     {
       time: "May 2024 - Present",
-      title: "Graduate Course Assistant - Database Systems",
+      title: "Lead Graduate Course Assistant - Database Systems",
       company: "University of Illinois Urbana-Champaign",
       description: [
         "Assisted in teaching Database Systems, supporting students in their learning journey by answering database-related questions and monitoring their progress",
