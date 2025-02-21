@@ -30,6 +30,10 @@ export const Education = () => {
       title: "Advanced Data Management",
       link: "https://siebelschool.illinois.edu/academics/courses/cs511",
     },
+    {
+      title: "User-Centered Machine Learning",
+      link: "https://courses.grainger.illinois.edu/CS568/sp2025/",
+    },
   ];
 
   const UMN_COURSES = [
