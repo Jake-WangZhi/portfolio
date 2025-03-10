@@ -3,6 +3,18 @@ import Card from "./Card";
 export const Experience = () => {
   const EXPERIENCES = [
     {
+      time: "May 2024 - Present",
+      title: "Lead Graduate Course Assistant - Database Systems",
+      company: "University of Illinois Urbana-Champaign",
+      description: [
+        "Assisted in teaching Database Systems, supporting students in their learning journey by answering database-related questions and monitoring their progress",
+        "Designed, tested, and graded SQL, MySQL, MongoDB, and Neo4j machine problems to ensure alignment with course objectives and student learning outcomes",
+        "Collaborated closely with teaching staff to enhance course content and delivery, contributing to a dynamic learning environment",
+      ],
+      techStacks: ["Sql", "NoSQL", "MySql", "MongoDB", "Neo4j", "GitHub"],
+      url: "https://illinois.edu/",
+    },
+    {
       time: "Sep 2024 - Dec 2024",
       title: "Tech Lead - Volunteer",
       company: "Illinois Enactus - Jila",
@@ -25,20 +37,8 @@ export const Experience = () => {
       url: "https://www.illinoisenactus.com/jila",
     },
     {
-      time: "May 2024 - Present",
-      title: "Lead Graduate Course Assistant - Database Systems",
-      company: "University of Illinois Urbana-Champaign",
-      description: [
-        "Assisted in teaching Database Systems, supporting students in their learning journey by answering database-related questions and monitoring their progress",
-        "Designed, tested, and graded SQL, MySQL, MongoDB, and Neo4j machine problems to ensure alignment with course objectives and student learning outcomes",
-        "Collaborated closely with teaching staff to enhance course content and delivery, contributing to a dynamic learning environment",
-      ],
-      techStacks: ["Sql", "NoSQL", "MySql", "MongoDB", "Neo4j", "GitHub"],
-      url: "https://illinois.edu/",
-    },
-    {
       time: "Jun 2021 - Aug 2023",
-      title: "Full Stack Software Engineer",
+      title: "Software Engineer",
       company: "Foundry Co",
       description: [
         "Operated efficiently in a fast-paced startup environment, managing up to 8 different projects, requiring the use of various languages and tech stacks",

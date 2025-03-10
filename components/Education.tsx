@@ -91,7 +91,7 @@ export const Education = () => {
             <h1 className={`text-slate-200 text-lg font-medium`}>
               University of Illinois Urbana - Champaign
             </h1>
-            <h3>Expected May 2025</h3>
+            <h3>18 May 2025</h3>
           </div>
           <div className="flex justify-between">
             <h3>Master of Computer Science</h3>
@@ -110,7 +110,7 @@ export const Education = () => {
             <h1 className={`text-slate-200 text-lg font-medium`}>
               University of Minnesota - Twin Cities
             </h1>
-            <h3>Dec 2020</h3>
+            <h3>30 Dec 2020</h3>
           </div>
           <div className="flex justify-between">
             <h3>Bachelor of Computer Engineering</h3>
