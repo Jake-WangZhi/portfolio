@@ -7,12 +7,9 @@ export const Projects = () => {
       time: "May 2023 - Present",
       title: "Lil Networking",
       description: [
-        "Designed and implemented a multi-platform Progressive Web App using Next.js and a native mobile app using Expo to help people form networking habits",
-        "Created user-friendly interfaces using TailwindCSS and Material-UI to facilitate easy navigation and interaction",
-        "Utilized OAuth login thru LinkedIn and Google for secure user authentication and personalized configurations",
-        "Leveraged Prisma ORM for seamless interaction with PostgreSQL, enabling efficient data management and retrieval",
-        "Enabled Progressive Web App (PWA) capabilities for an enhanced user experience on all devices",
-        "Set up push notifications using web-push to keep users engaged and informed about networking opportunities",
+        "Developed a multi-platform Progressive Web App using Next.js and a native mobile app using Expo, featuring OAuth-based authentication via LinkedIn and Google for secure user login",
+        "Designed intuitive user interfaces with TailwindCSS and Material-UI, enhancing navigation and interaction while integrating push notifications to keep users engaged",
+        "Built a scalable backend with PostgreSQL and Prisma ORM, optimizing data management and retrieval for a seamless user experience",
         "Deployed the application and added analytics on Vercel to better understand user preferences",
       ],
       techStacks: [
