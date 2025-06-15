@@ -3,7 +3,28 @@ import Card from "./Card";
 export const Experience = () => {
   const EXPERIENCES = [
     {
-      time: "May 2024 - Present",
+      time: "May 2025 - Present",
+      title: "Founding Engineer",
+      company: "OpenLaw",
+      description: [
+        "Spearheaded full-stack development initiatives using Node.js, Next.js, TypeScript, and Firebase, delivering performant, scalable legal-tech features that enhance attorney-client interactions and reduce operational complexity",
+        "Championed engineering best practices to optimize frontend responsiveness and backend reliability—driving down user friction and shaping the foundation of a platform serving underserved legal populations",
+        "Collaborated closely with product and design teams in an in-person, high-ownership environment to iterate rapidly and deploy code that directly influenced OpenLaw's growth and vision",
+      ],
+      techStacks: [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Firebase",
+        "NoSQL",
+        "Material UI",
+        "Git",
+        "GitHub",
+      ],
+      url: "https://www.openlaw.com/",
+    },
+    {
+      time: "May 2024 - May 2025",
       title: "Lead Graduate Course Assistant - Database Systems",
       company: "University of Illinois Urbana-Champaign",
       description: [
@@ -76,6 +97,7 @@ export const Experience = () => {
         "React Native",
         "Mongodb",
         "PostgreSQL",
+        "Firebase",
         "Supabase",
         "Spring",
         "Vue.js",

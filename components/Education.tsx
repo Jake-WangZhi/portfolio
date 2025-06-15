@@ -91,11 +91,11 @@ export const Education = () => {
             <h1 className={`text-slate-200 text-lg font-medium`}>
               University of Illinois Urbana - Champaign
             </h1>
-            <h3>18 May 2025</h3>
+            <h3>May 2025</h3>
           </div>
           <div className="flex justify-between">
             <h3>Master of Computer Science</h3>
-            {/* <h3 className="text-slate-200 font-medium">GPA: 3.94</h3> */}
+            <h3 className="text-slate-200 font-medium">GPA: 3.95</h3>
           </div>
           <h3 className="text-slate-200 font-medium">Relevant Courses:</h3>
           <div className="flex gap-2 flex-wrap">
@@ -110,11 +110,11 @@ export const Education = () => {
             <h1 className={`text-slate-200 text-lg font-medium`}>
               University of Minnesota - Twin Cities
             </h1>
-            <h3>30 Dec 2020</h3>
+            <h3>Dec 2020</h3>
           </div>
           <div className="flex justify-between">
             <h3>Bachelor of Computer Engineering</h3>
-            {/* <h3 className="text-slate-200 font-medium">GPA: 3.53</h3> */}
+            <h3 className="text-slate-200 font-medium">GPA: 3.53</h3>
           </div>
           <h3 className="text-slate-200 font-medium">Relevant Courses:</h3>
           <div className="flex gap-2 flex-wrap">
